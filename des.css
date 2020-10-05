@@ -1,5 +1,19 @@
+body,
+html {
+    height: 100%;
+}
+
+.ph {
+    background-image: url('christopher-gower-m_HRfLhgABo-unsplash.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .log {
     width: 100%;
+    height: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -22,7 +36,7 @@
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
     background: rgba(93, 84, 240, 0.5);
@@ -30,7 +44,6 @@
     background: -o-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
     background: -moz-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
     background: linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
-    pointer-events: none;
 }
 
 .box {
